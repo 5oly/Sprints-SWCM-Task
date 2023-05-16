@@ -1,0 +1,29 @@
+
+h1 {
+  color: blue;
+}
+
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: 55%;
+  border: 1px solid ;
+  padding: auto;
+ 
+}
+
+ul {
+  padding-left: 0%;
+}
+
+ul li {
+  margin-left: 2.7%;
+}
+
+button {
+  margin-top: 1%;
+}
+
+
