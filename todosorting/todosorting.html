@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To-do Application</title>
+    <link rel="stylesheet" type="text/css" href="todosorting.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>To-do Application</h1>
+
+      <form>
+        <input type="text" id="taskNameInput" placeholder="Task Name" required>
+        <input type="number" id="priorityInput" placeholder="Priority" required>
+        <button type="button" onclick="addTask()">Add Task</button>
+      </form>
+
+      <table id="taskList">
+        <tr>
+          <th>Task Name</th>
+          <th>Priority</th>
+          <th>Actions</th>
+        </tr>
+      </table>
+
+      <button onclick="sortTasks()">Sort by Priority</button>
+    </div>
+
+    <script src="todosorting.js"></script>
+  </body>
+</html>
+
